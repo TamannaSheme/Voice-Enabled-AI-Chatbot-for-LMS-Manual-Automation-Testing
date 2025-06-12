@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notifications Settings</title>
+  <link rel="stylesheet" href="css/notifications_setting.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Notifications Settings</h1>
+    <div>
+      <label for="push-on">Push Notifications</label>
+      <input type="radio" id="push-on" name="push" value="on"> On
+      <input type="radio" id="push-off" name="push" value="off"> Off
+    </div>
+
+    <div>
+      <label for="email-on">Email Alerts</label>
+      <input type="radio" id="email-on" name="email" value="on"> On
+      <input type="radio" id="email-off" name="email" value="off"> Off
+    </div>
+
+    <div>
+      <label for="sound-enabled">Sound</label>
+      <input type="radio" id="sound-enabled" name="sound" value="enabled"> Enabled
+      <input type="radio" id="sound-disabled" name="sound" value="disabled"> Disabled
+      <input type="radio" id="sound-night" name="sound" value="night"> On (10:00 PM–7:00 AM)
+      <input type="radio" id="sound-off" name="sound" value="off"> Off
+    </div>
+
+    <button id="save-btn">Save</button>
+    <a href="settings.html" id="back-to-settings">← Back to Settings</a>
+  </div>
+
+  <script src="js/notifications_setting.js"></script>
+</body>
+</html>

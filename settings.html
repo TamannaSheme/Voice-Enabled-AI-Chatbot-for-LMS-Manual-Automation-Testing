@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Settings – Lumi</title>
+  <link rel="stylesheet" href="css/settings.css" />
+</head>
+<body>
+  <div class="settings-container">
+    <div class="header">
+      <img src="images/lumi-icon.png" alt="Lumi Logo" class="logo" />
+      <h2>Lumi</h2>
+    </div>
+    <h3 class="section-title">Settings</h3>
+
+    <div class="setting-item" onclick="navigate('voice')">
+      <img src="images/mic.png" class="icon" />
+      <span>Voice Input</span>
+      <img src="images/arrow.png" class="arrow" />
+    </div>
+    
+    <div class="setting-item" onclick="navigate('preferences')">
+      <img src="images/gear.png" class="icon" />
+      <span>Preferences</span>
+      <img src="images/arrow.png" class="arrow" />
+    </div>
+    
+    <div class="setting-item" onclick="navigate('notifications')">
+      <img src="images/bell.jpg" class="icon" />
+      <span>Notifications</span>
+      <img src="images/arrow.png" class="arrow" />
+    </div>
+    
+    <div class="setting-item" onclick="navigate('account')">
+      <img src="images/account.png" class="icon" />
+      <span>Account</span>
+      <img src="images/arrow.png" class="arrow" />
+    </div>  
+
+  <script src="js/settings.js"></script>
+</body>
+</html>

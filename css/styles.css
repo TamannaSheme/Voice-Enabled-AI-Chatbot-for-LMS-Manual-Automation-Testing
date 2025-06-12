@@ -1,0 +1,91 @@
+.form-card {
+  width: 350px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 40px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.logo img {
+  width: 32px;
+  height: 32px;
+}
+
+.intro {
+  background-color: #f2f2f2;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.input-container {
+  position: relative;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px 40px 12px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.voice-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.button-orange {
+  width: 100%;
+  background-color: #f77f00;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.button-orange:hover {
+  background-color: #e36800;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.input-container input {
+  flex: 1;
+}
+
+.voice-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voice Input Settings</title>
+  <link rel="stylesheet" href="css/voice_setting.css">
+</head>
+<body>
+  <div class="settings-container">
+    <div class="header">
+      <span class="icon">🔊</span>
+      <h2>Voice Input</h2>
+    </div>
+
+    <div class="setting-item">
+      <label for="enable-voice">Enable Voice Input</label>
+      <input type="checkbox" id="enable-voice" checked>
+    </div>
+
+    <div class="setting-group">
+      <p>Language</p>
+      <label><input type="radio" name="language" checked> English</label>
+    </div>
+
+    <div class="setting-group">
+      <p>Speech Mode</p>
+      <label><input type="radio" name="speech-mode"> Push-to-Talk</label>
+      <label><input type="radio" name="speech-mode" checked> Continuous</label>
+      <label><input type="radio" name="speech-mode"> Command-Only</label>
+    </div>
+
+    <div class="setting-group">
+      <p>Auto-Delete</p>
+      <label><input type="radio" name="auto-delete" checked> 30 days</label>
+      <label><input type="radio" name="auto-delete"> Never</label>
+    </div>
+
+    <button id="save-btn">Save</button>
+    <div class="back-link">
+      <a href="settings.html">&#8592; Back to Settings</a>
+    </div>
+  </div>
+
+  <script src="js/voice_setting.js"></script>
+</body>
+</html>

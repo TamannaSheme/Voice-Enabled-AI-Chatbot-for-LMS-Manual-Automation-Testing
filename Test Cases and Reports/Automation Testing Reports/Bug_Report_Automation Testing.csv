@@ -1,0 +1,214 @@
+Test Case ID,Test Type,Test Scenario,Test Steps,Expected Result,Actual Result,Status,Comments
+TC_I001,Integration Test,Verify Role Selection Page Loads,Open Role Selection Page,Page loads with title 'Choose Your Role',Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I002,Integration Test,Verify Student Role Button,Locate Student Role Button,Button labeled 'Student' is visible,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I003,Integration Test,Verify Instructor Role Button,Locate Instructor Role Button,Button labeled 'Instructor' is visible,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I004,Integration Test,Verify Admin Role Button,Locate Admin Role Button,Button labeled 'LMS Admin' is visible,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I005,Integration Test,Verify Navigation for Student Role,Click Student Role Button,Navigates to student.html,Fail,Failed,"Issue detected - Navigates to student.html was expected, but Fail occurred."
+TC_I006,Integration Test,Verify Navigation for Admin Role,Click Admin Role Button,Navigates to admin.html,Fail,Failed,"Issue detected - Navigates to admin.html was expected, but Fail occurred."
+TC_I007,Integration Test,Verify Logo is Displayed,Locate logo,Logo is visible with correct src,Fail,Failed,"Issue detected - Logo is visible with correct src was expected, but Fail occurred."
+TC_I008,Integration Test,Verify Footer is Displayed,Locate footer section,Footer is displayed correctly,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I009,Integration Test,Verify Navigation for Instructor Role,Click Instructor Role Button,Navigates to instructor.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I010,Integration Test,Verify Help Button Functionality,Click Help Button,Displays Help Page,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I011,Integration Test,Verify FAQ Button Functionality,Click FAQ Button,Displays FAQ Page,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I012,Integration Test,Verify Contact Us Button Functionality,Click Contact Us Button,Displays Contact Us Page,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_U001,Unit Test,Verify navigation to student page,Call handleRole('student'),Navigate to student.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_U002,Unit Test,Verify navigation to admin page,Call handleRole('admin'),Navigate to admin.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_U003,Unit Test,Verify navigation to instructor page,Call handleRole('instructor'),Navigate to instructor.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I001,Integration Test,Student Role Page Testing,Open Student Role Page,Page loads with title 'Student Role',Page not loaded,Fail,No specific comment provided.
+TC_I001,Integration Test,Student Role Page Testing,Open Student Role Page,Page loads with title 'Student Role',Page loaded successfully,Pass,No specific comment provided.
+TC_I002,Integration Test,Student Role Page Testing,Locate Enrolled Courses Button,Button labeled 'Enrolled Courses' is visible,Button not visible,Fail,No specific comment provided.
+TC_I003,Integration Test,Student Role Page Testing,Locate Upcoming Deadlines Button,Button labeled 'Upcoming Deadlines' is visible,Button not visible,Fail,No specific comment provided.
+TC_I004,Integration Test,Student Role Page Testing,Locate Submit Assignment Button,Button labeled 'Submit Assignment' is visible,Button not visible,Fail,No specific comment provided.
+TC_I005,Integration Test,Student Role Page Testing,Click Notifications Button,Button labeled 'Notifications' is visible,Button not displayed,Fail,No specific comment provided.
+TC_I005,Integration Test,Student Role Page Testing,Click Notifications Button,Button labeled 'Notifications' is visible,Button displayed,Pass,No specific comment provided.
+TC_I006,Integration Test,Student Role Page Testing,Click View Grades Button,Button labeled 'View Grades' is visible,Button not displayed,Fail,No specific comment provided.
+TC_I007,Integration Test,Student Role Page Testing,Locate Logo,Logo is visible with correct src,Logo not loaded,Fail,No specific comment provided.
+TC_I008,Integration Test,Student Role Page Testing,Locate Footer Section,Footer is displayed correctly,Footer loaded correctly,Pass,No specific comment provided.
+TC_I009,Integration Test,Student Role Page Testing,Click Help Button,Displays Help Page,Help page displayed,Pass,No specific comment provided.
+TC_I010,Integration Test,Student Role Page Testing,Click FAQ Button,Displays FAQ Page,FAQ page displayed,Pass,No specific comment provided.
+TC_I011,Integration Test,Student Role Page Testing,Click Contact Us Button,Displays Contact Us Page,Contact Us page displayed,Pass,No specific comment provided.
+TC_U001,Unit Test,Student Role Navigation,Call handleRole('student'),Navigate to student.html,Student page loaded,Pass,No specific comment provided.
+TC_U002,Unit Test,Student Role Navigation,Call handleRole('admin'),Navigate to admin.html,Admin page loaded,Pass,No specific comment provided.
+TC_U003,Unit Test,Student Role Navigation,Call handleRole('instructor'),Navigate to instructor.html,Instructor page loaded,Pass,No specific comment provided.
+TC_I123_Fail,Integration Test,Manage Courses Button Functionality,Click Manage Courses Button,Navigates to manage-courses.html,Fail,Failed,"Issue detected - Navigates to manage-courses.html was expected, but Fail occurred."
+TC_I124_Fail,Integration Test,Manage Courses Button Functionality Duplicate,Click Manage Courses Button Duplicate,Navigates to manage-courses.html,Fail,Failed,"Issue detected - Navigates to manage-courses.html was expected, but Fail occurred."
+TC_I125_Fail,Integration Test,Instructor Page Access Control,Check Page Header Text,"Displays 'Welcome, Instructor'",Fail,Failed,"Issue detected - Displays 'Welcome, Instructor' was expected, but Fail occurred."
+TC_I126_Fail,Integration Test,Upload Materials Button Functionality,Click Upload Materials Button,Navigates to upload-materials.html,Fail,Failed,"Issue detected - Navigates to upload-materials.html was expected, but Fail occurred."
+TC_I127_Fail,Integration Test,Grade Submissions Button Functionality,Click Grade Submissions Button,Navigates to grade-submissions.html,Fail,Failed,"Issue detected - Navigates to grade-submissions.html was expected, but Fail occurred."
+TC_I128_Fail,Integration Test,Set Deadlines Button Functionality,Click Set Deadlines Button,Navigates to set-deadlines.html,Fail,Failed,"Issue detected - Navigates to set-deadlines.html was expected, but Fail occurred."
+TC_I129_Fail,Integration Test,Announcements Button Functionality,Click Announcements Button,Navigates to announcements.html,Fail,Failed,"Issue detected - Navigates to announcements.html was expected, but Fail occurred."
+TC_I130_Fail,Integration Test,Ask Lumi Button Functionality,Click Ask Lumi Button,Navigates to ask-lumi.html,Fail,Failed,"Issue detected - Navigates to ask-lumi.html was expected, but Fail occurred."
+TC_I123_Pass,Integration Test,Manage Courses Button Functionality,Click Manage Courses Button,Navigates to manage-courses.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I124_Pass,Integration Test,Manage Courses Button Functionality Duplicate,Click Manage Courses Button Duplicate,Navigates to manage-courses.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I125_Pass,Integration Test,Instructor Page Access Control,Check Page Header Text,"Displays 'Welcome, Instructor'",Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I126_Pass,Integration Test,Upload Materials Button Functionality,Click Upload Materials Button,Navigates to upload-materials.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I127_Pass,Integration Test,Grade Submissions Button Functionality,Click Grade Submissions Button,Navigates to grade-submissions.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I128_Pass,Integration Test,Set Deadlines Button Functionality,Click Set Deadlines Button,Navigates to set-deadlines.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I129_Pass,Integration Test,Announcements Button Functionality,Click Announcements Button,Navigates to announcements.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I130_Pass,Integration Test,Ask Lumi Button Functionality,Click Ask Lumi Button,Navigates to ask-lumi.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I001,Unit Test,Verify Navigation to Manage Courses,Call navigate function for Manage Courses,Navigates to manage-courses.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I002,Unit Test,Verify Navigation to Upload Materials,Call navigate function for Upload Materials,Navigates to upload-materials.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I003,Unit Test,Verify Navigation to Grade Submissions,Call navigate function for Grade Submissions,Navigates to grade-submissions.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I004,Unit Test,Verify Navigation to Set Deadlines,Call navigate function for Set Deadlines,Navigates to set-deadlines.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I005,Unit Test,Verify Navigation to Announcements,Call navigate function for Announcements,Navigates to announcements.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I006,Unit Test,Verify Navigation to Ask Lumi,Call navigate function for Ask Lumi,Navigates to ask-lumi.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I007,Unit Test,Verify Error for Invalid Action,Call navigate function with invalid action,Error: Invalid action,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I136,Integration Test,Manage Users Button Functionality,Click Manage Users Button,Navigates to manage-users.html,Fail,Failed,"Issue detected - Navigates to manage-users.html was expected, but Fail occurred."
+TC_I137,Integration Test,Role Access Control Button Functionality,Click Role Access Button,Navigates to role-access.html,Fail,Failed,"Issue detected - Navigates to role-access.html was expected, but Fail occurred."
+TC_I138,Integration Test,Platform Stats Button Functionality,Click Platform Stats Button,Navigates to platform-stats.html,Fail,Failed,"Issue detected - Navigates to platform-stats.html was expected, but Fail occurred."
+TC_I139,Integration Test,Global Announcements Button Functionality,Click Global Announcements Button,Navigates to global-announcements.html,Fail,Failed,"Issue detected - Navigates to global-announcements.html was expected, but Fail occurred."
+TC_I140,Integration Test,System Settings Button Functionality,Click System Settings Button,Navigates to system-settings.html,Fail,Failed,"Issue detected - Navigates to system-settings.html was expected, but Fail occurred."
+TC_I141,Integration Test,Ask Lumi Button Functionality,Click Ask Lumi Button,Navigates to ask-lumi.html,Fail,Failed,"Issue detected - Navigates to ask-lumi.html was expected, but Fail occurred."
+TC_I136,Integration Test,Manage Users Button Functionality,Click Manage Users Button,Navigates to manage-users.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I137,Integration Test,Role Access Control Button Functionality,Click Role Access Button,Navigates to role-access.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I138,Integration Test,Platform Stats Button Functionality,Click Platform Stats Button,Navigates to platform-stats.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I139,Integration Test,Global Announcements Button Functionality,Click Global Announcements Button,Navigates to global-announcements.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I140,Integration Test,System Settings Button Functionality,Click System Settings Button,Navigates to system-settings.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I141,Integration Test,Ask Lumi Button Functionality,Click Ask Lumi Button,Navigates to ask-lumi.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I133,Integration Test,Visual Consistency Check,Verify Header Text,"Text reads 'Welcome, LMS Admin ðŸ› ï¸'",Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I135,Integration Test,Admin Page Access Control,Verify user role is admin,Access granted to admin,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_U001,Unit Test,Verify navigation to Manage Users page,Call handleAdminNavigation('manage-users'),Navigate to manage-users.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_U002,Unit Test,Verify navigation to Role Access page,Call handleAdminNavigation('role-access'),Navigate to role-access.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_U003,Unit Test,Verify navigation to Platform Stats page,Call handleAdminNavigation('platform-stats'),Navigate to platform-stats.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_U004,Unit Test,Verify navigation to Global Announcements page,Call handleAdminNavigation('global-announcements'),Navigate to global-announcements.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_U005,Unit Test,Verify navigation to System Settings page,Call handleAdminNavigation('system-settings'),Navigate to system-settings.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_U006,Unit Test,Verify navigation to Ask Lumi page,Call handleAdminNavigation('ask-lumi'),Navigate to ask-lumi.html,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_U007,Unit Test,Verify error for invalid action,Call handleAdminNavigation('invalid'),Error: Invalid admin action,Pass,Passed,"Test passed successfully, behavior matches expectations."
+TC_I058,Integration Test,Check visibility of FAQ questions,Check if FAQ questions are visible,FAQ questions should be visible,FAQ questions are visible,Pass,No specific comment provided.
+TC_I059,Integration Test,Expand answer to first question,Click first FAQ item,Answer should expand to 'block',Answer did not expand (Fixed),Fail,No specific comment provided.
+TC_I060,Integration Test,Collapse answer on second click,Click first FAQ item twice,Answer should collapse to 'none',Answer did not collapse (Fixed),Fail,No specific comment provided.
+TC_I061,Integration Test,Navigate to 'Ask Lumi a New Question',Click 'Ask Lumi a New Question' button,Navigate to 'ask-lumi.html',Did not navigate (Fixed),Fail,No specific comment provided.
+TC_I062,Integration Test,Verify expand/collapse is independent,Expand multiple FAQ items,Only first FAQ should be expanded,Expand/collapse did not work (Fixed),Fail,No specific comment provided.
+TC_I063,Integration Test,Check FAQ layout responsiveness,Resize window to simulate mobile view,Flex direction should be 'column',Flex direction not set (Fixed),Fail,No specific comment provided.
+TC_I059,Integration Test,Expand answer to first question - Fixed,Click first FAQ item,Answer should expand to 'block',Answer expands to 'block',Pass,No specific comment provided.
+TC_I060,Integration Test,Collapse answer on second click - Fixed,Click first FAQ item twice,Answer should collapse to 'none',Answer collapses to 'none',Pass,No specific comment provided.
+TC_I061,Integration Test,Navigate to 'Ask Lumi a New Question' - Fixed,Click 'Ask Lumi a New Question' button,Navigate to 'ask-lumi.html',Navigates to 'ask-lumi.html',Pass,No specific comment provided.
+TC_I063,Integration Test,Check FAQ layout responsiveness - Fixed,Resize window to simulate mobile view,Flex direction should be 'column',Flex direction is 'column',Pass,No specific comment provided.
+TC_U001,Unit Test,Toggle answer display from none to block,Toggle answer display using toggleAnswer function,Display should change to 'block',Display changed to 'block',Pass,No specific comment provided.
+TC_U002,Unit Test,Toggle answer display from block to none,Toggle answer display using toggleAnswer function,Display should change to 'none',Display changed to 'none',Pass,No specific comment provided.
+TC_U003,Unit Test,Navigate to 'Ask Lumi a New Question',Call window.location.assign with 'ask-lumi.html',Navigate to 'ask-lumi.html',Navigates to 'ask-lumi.html',Pass,No specific comment provided.
+C26,Integration,Submit Question Successfully,Enter question and click submit,Question submitted,Question submitted,Pass,No specific comment provided.
+C27,Integration,Submit Without Question,Leave question empty and click submit,Error message displayed,Error message displayed,Pass,No specific comment provided.
+C28,Integration,Voice Input - Microphone Access Granted,Click voice input button,Microphone activated,Microphone activated,Pass,No specific comment provided.
+C29,Integration,Microphone Access Denied,Click voice input button with denied permission,Error message displayed,Error message displayed,Fail,No specific comment provided.
+C29,Integration,Microphone Access Denied,Click voice input button with denied permission,Error message displayed,Error message displayed,Pass,No specific comment provided.
+C30,Integration,Voice Submission Shows Success Message,Submit voice question,Success message displayed,Success message displayed,Pass,No specific comment provided.
+C31,Integration,Voice Submission Error,Submit voice question without microphone,Error message displayed,Error message displayed,Pass,No specific comment provided.
+U01,Unit,Submit Question Successfully,Enter question and call function,Question submitted,Question submitted,Pass,No specific comment provided.
+U02,Unit,Submit Without Question,Leave question empty and call function,Error message displayed,Error message displayed,Pass,No specific comment provided.
+U03,Unit,Voice Input - Microphone Access Granted,Call voice function,Microphone activated,Microphone activated,Pass,No specific comment provided.
+U04,Unit,Voice Input - Microphone Access Denied,Call voice function with denied permission,Error message displayed,Error message displayed,Fail,No specific comment provided.
+U04,Unit,Voice Input - Microphone Access Denied,Call voice function with denied permission,Error message displayed,Error message displayed,Pass,No specific comment provided.
+C13,Integration,Page Load,Open settings page,Settings page loads,Settings page loads,Fail,No specific comment provided.
+C13,Integration,Page Load,Open settings page,Settings page loads,Settings page loads,Pass,No specific comment provided.
+C14,Integration,Check UI Elements Visibility,Inspect settings page elements,All elements visible,All elements visible,Fail,No specific comment provided.
+C14,Integration,Check UI Elements Visibility,Inspect settings page elements,All elements visible,All elements visible,Pass,No specific comment provided.
+C98,Integration,Navigate to Voice Settings,Click Voice Settings link,Navigates to voice_setting.html,Navigates to voice_setting.html,Fail,No specific comment provided.
+C98,Integration,Navigate to Voice Settings,Click Voice Settings link,Navigates to voice_setting.html,Navigates to voice_setting.html,Pass,No specific comment provided.
+C99,Integration,Navigate to Preferences Settings,Click Preferences Settings link,Navigates to preferences_setting.html,Navigates to preferences_setting.html,Fail,No specific comment provided.
+C99,Integration,Navigate to Preferences Settings,Click Preferences Settings link,Navigates to preferences_setting.html,Navigates to preferences_setting.html,Pass,No specific comment provided.
+C101,Integration,Navigate to Notifications Settings,Click Notifications Settings link,Navigates to notifications_setting.html,Navigates to notifications_setting.html,Fail,No specific comment provided.
+C101,Integration,Navigate to Notifications Settings,Click Notifications Settings link,Navigates to notifications_setting.html,Navigates to notifications_setting.html,Pass,No specific comment provided.
+C102,Integration,Navigate to Account Settings,Click Account Settings link,Navigates to account_setting.html,Navigates to account_setting.html,Fail,No specific comment provided.
+C102,Integration,Navigate to Account Settings,Click Account Settings link,Navigates to account_setting.html,Navigates to account_setting.html,Pass,No specific comment provided.
+U01,Unit,Navigate to Voice Settings,Click Voice Settings link,Function called with 'voice_setting.html',Function called with 'voice_setting.html',Pass,No specific comment provided.
+U02,Unit,Navigate to Preferences Settings,Click Preferences Settings link,Function called with 'preferences_setting.html',Function called with 'preferences_setting.html',Pass,No specific comment provided.
+U03,Unit,Navigate to Notifications Settings,Click Notifications Settings link,Function called with 'notifications_setting.html',Function called with 'notifications_setting.html',Pass,No specific comment provided.
+U04,Unit,Navigate to Account Settings,Click Account Settings link,Function called with 'account_setting.html',Function called with 'account_setting.html',Pass,No specific comment provided.
+C20,Integration,Enable/Disable Voice Input,Toggle the voice input checkbox,Voice input enabled/disabled,Voice input enabled/disabled,Fail,No specific comment provided.
+C20,Integration,Enable/Disable Voice Input,Toggle the voice input checkbox,Voice input enabled/disabled,Voice input enabled/disabled,Pass,No specific comment provided.
+C21,Integration,Select Speech Mode Option,Select a speech mode from dropdown,Speech mode changed,Speech mode changed,Fail,No specific comment provided.
+C21,Integration,Select Speech Mode Option,Select a speech mode from dropdown,Speech mode changed,Speech mode changed,Pass,No specific comment provided.
+C22,Integration,Change Language Option,Select a language from dropdown,Language changed,Language changed,Fail,No specific comment provided.
+C22,Integration,Change Language Option,Select a language from dropdown,Language changed,Language changed,Pass,No specific comment provided.
+C23,Integration,Change Auto-Delete Option,Toggle the auto-delete checkbox,Auto-delete enabled/disabled,Auto-delete enabled/disabled,Fail,No specific comment provided.
+C23,Integration,Change Auto-Delete Option,Toggle the auto-delete checkbox,Auto-delete enabled/disabled,Auto-delete enabled/disabled,Pass,No specific comment provided.
+C24,Integration,Save Button Functionality,Click Save button,Settings saved successfully,Settings saved successfully,Fail,No specific comment provided.
+C24,Integration,Save Button Functionality,Click Save button,Settings saved successfully,Settings saved successfully,Pass,No specific comment provided.
+C25,Integration,Navigation to Settings Page,Click Back to Settings link,Navigates to settings.html,Navigates to settings.html,Fail,No specific comment provided.
+C25,Integration,Navigation to Settings Page,Click Back to Settings link,Navigates to settings.html,Navigates to settings.html,Pass,No specific comment provided.
+U01,Unit,Toggle Voice Input,Check the checkbox to enable/disable voice input,Checkbox toggled,Checkbox toggled,Pass,No specific comment provided.
+U02,Unit,Change Speech Mode,Select a speech mode from the dropdown,Speech mode changed,Speech mode changed,Pass,No specific comment provided.
+U03,Unit,Change Language Option,Select a language from the dropdown,Language changed,Language changed,Pass,No specific comment provided.
+U04,Unit,Toggle Auto-Delete Option,Check the checkbox to enable/disable auto-delete,Checkbox toggled,Checkbox toggled,Pass,No specific comment provided.
+U05,Unit,Save Settings Functionality,Click the save button,Save function triggered,Save function triggered,Pass,No specific comment provided.
+C39,Integration,Check Default Preference Selections,Open preferences settings page,Default selections visible,,Fail,No specific comment provided.
+C39,Integration,Check Default Preference Selections,Open preferences settings page,Default selections visible,Default selections visible,Pass,No specific comment provided.
+C40,Integration,Change Theme Preference and Save,Select 'Dark' theme and click Save,Settings saved,Settings saved,Pass,No specific comment provided.
+C41,Integration,Change Font Size and Save,Select 'Large' font size and click Save,Settings saved,Settings saved,Pass,No specific comment provided.
+C42,Integration,Back to Settings Navigation,Click 'Back to Settings' link,Navigates to settings page,Navigates to settings page,Pass,No specific comment provided.
+C43,Integration,Verify App Language Option,Select 'Spanish' and click Save,Settings saved,Settings saved,Pass,No specific comment provided.
+C44,Integration,Verify Save Button Without Changes,Click Save without making changes,Settings saved,Settings saved,Pass,No specific comment provided.
+U01,Unit,Change Theme Preference,Select 'Dark' theme,Theme changed,Theme changed,Pass,No specific comment provided.
+U02,Unit,Change Font Size,Select 'Large' font size,Font size changed,Font size changed,Pass,No specific comment provided.
+U03,Unit,Change App Language,Select 'Spanish' language,Language changed,Language changed,Pass,No specific comment provided.
+U04,Unit,Save Settings Functionality,Click the save button,Save function triggered,Save function triggered,Pass,No specific comment provided.
+C46,Integration,Verify Default Selections,Open notifications settings page,Default selections visible,Default selections visible,Fail,No specific comment provided.
+C46,Integration,Verify Default Selections,Open notifications settings page,Default selections visible,Default selections visible,Pass,No specific comment provided.
+C47,Integration,Toggle Push Notifications and Save,Enable push notifications and click Save,Settings saved,Settings saved,Fail,No specific comment provided.
+C47,Integration,Toggle Push Notifications and Save,Enable push notifications and click Save,Settings saved,Settings saved,Pass,No specific comment provided.
+C48,Integration,Toggle Email Alerts and Save,Enable email alerts and click Save,Settings saved,Settings saved,Fail,No specific comment provided.
+C48,Integration,Toggle Email Alerts and Save,Enable email alerts and click Save,Settings saved,Settings saved,Pass,No specific comment provided.
+C49,Integration,Change Sound to Enabled and Save,Select sound 'Enabled' and click Save,Settings saved,Settings saved,Fail,No specific comment provided.
+C49,Integration,Change Sound to Enabled and Save,Select sound 'Enabled' and click Save,Settings saved,Settings saved,Pass,No specific comment provided.
+C50,Integration,Change Sound to Off and Save,Select sound 'Off' and click Save,Settings saved,Settings saved,Fail,No specific comment provided.
+C50,Integration,Change Sound to Off and Save,Select sound 'Off' and click Save,Settings saved,Settings saved,Pass,No specific comment provided.
+C51,Integration,Back to Settings Navigation,Click 'Back to Settings' link,Navigates to settings page,Settings saved,Fail,No specific comment provided.
+C51,Integration,Back to Settings Navigation,Click 'Back to Settings' link,Navigates to settings page,Navigates to settings page,Pass,No specific comment provided.
+C159,Integration,Page Load,Open notifications settings page,Page loads without errors,Page loads without errors,Pass,No specific comment provided.
+C160,Integration,Check UI Elements Visibility,Check visibility of all elements,All elements visible,All elements visible,Pass,No specific comment provided.
+U01,Unit,Toggle Push Notifications,Check the checkbox to enable/disable push notifications,Checkbox toggled,Checkbox toggled,Pass,No specific comment provided.
+U02,Unit,Toggle Email Alerts,Check the checkbox to enable/disable email alerts,Checkbox toggled,Checkbox toggled,Pass,No specific comment provided.
+U03,Unit,Change Sound Option,Select a sound option from dropdown,Sound option changed,Sound option changed,Pass,No specific comment provided.
+U04,Unit,Save Settings Functionality,Click the save button,Save function triggered,Save function triggered,Pass,No specific comment provided.
+C52,Integration,Check Name and Email Display,Open account settings page,Name and Email visible,Name and Email visible,Fail,No specific comment provided.
+C52,Integration,Check Name and Email Display,Open account settings page,Name and Email visible,Name and Email visible,Pass,No specific comment provided.
+C53,Integration,Toggle Password Visibility,Click 'Show/Hide Password' button,Password visibility toggles,Password visibility toggles,Fail,No specific comment provided.
+C53,Integration,Toggle Password Visibility,Click 'Show/Hide Password' button,Password visibility toggles,Password visibility toggles,Pass,No specific comment provided.
+C54,Integration,Verify Default Linked Account Selection,Check default linked account,Google selected,Google selected,Fail,No specific comment provided.
+C54,Integration,Verify Default Linked Account Selection,Check default linked account,Google selected,Google selected,Pass,No specific comment provided.
+C55,Integration,Change Linked Account Option,Select 'Facebook' as linked account,Linked account changed,Linked account changed,Fail,No specific comment provided.
+C55,Integration,Change Linked Account Option,Select 'Facebook' as linked account,Linked account changed,Linked account changed,Pass,No specific comment provided.
+C56,Integration,Logout Button Functionality,Click 'Logout' button,Logout executed,Logout executed,Fail,No specific comment provided.
+C56,Integration,Logout Button Functionality,Click 'Logout' button,Logout executed,Logout executed,Pass,No specific comment provided.
+C57,Integration,Back to Settings Navigation,Click 'Back to Settings' link,Navigates to settings page,Navigates to settings page,Pass,No specific comment provided.
+U01,Unit,Display Username and Email,Verify name and email display,Name and Email visible,Name and Email visible,Pass,No specific comment provided.
+U02,Unit,Toggle Password Visibility,Click 'Show/Hide Password' button,Password visibility toggles,Password visibility toggles,Pass,No specific comment provided.
+U03,Unit,Change Linked Account Option,Select 'Facebook' as linked account,Linked account changed,Linked account changed,Pass,No specific comment provided.
+U04,Unit,Save Settings Functionality,Click the save button,Save function triggered,Save function triggered,Pass,No specific comment provided.
+U04,Integration,Check Student ID Input,Enter Student ID,Student ID visible,Error: Student ID not visible,Fail,No specific comment provided.
+U04,Integration,Check Student ID Input,Enter Student ID,Student ID visible,Student ID visible,Pass,No specific comment provided.
+U04,Integration,Check Phone Number Input,Enter Phone Number,Phone Number visible,Error: Phone Number not visible,Fail,No specific comment provided.
+U04,Integration,Check Phone Number Input,Enter Phone Number,Phone Number visible,Phone Number visible,Pass,No specific comment provided.
+U04,Integration,Check Email Input,Enter Email,Email visible,Error: Email not visible,Fail,No specific comment provided.
+U04,Integration,Check Email Input,Enter Email,Email visible,Email visible,Pass,No specific comment provided.
+U04,Integration,Submit Without Filling Fields,Leave Fields Empty and Submit,Error Message Displayed,No Error Displayed,Fail,No specific comment provided.
+U04,Integration,Submit Without Filling Fields,Leave Fields Empty and Submit,Error Message Displayed,Error Message Displayed,Pass,No specific comment provided.
+U04,Integration,Successful Form Submission,Fill Fields and Submit,Form Submitted Successfully,Form Submission Failed,Fail,No specific comment provided.
+U04,Unit,Validate Student ID Input,Enter Student ID,Student ID Saved,Student ID Saved,Pass,No specific comment provided.
+U04,Unit,Validate Phone Number Input,Enter Phone Number,Phone Number Saved,Phone Number Saved,Pass,No specific comment provided.
+U04,Unit,Validate Email Input,Enter Email,Email Saved,Email Saved,Pass,No specific comment provided.
+U04,Unit,Voice Recognition Error Display,Trigger Voice Error Display,Error Displayed,Error Displayed,Pass,No specific comment provided.
+U04,Unit,Save Settings Functionality,Click Save Button,Settings Saved,Settings Saved,Pass,No specific comment provided.
+U04,Unit,Form Responsiveness,Adjust Screen Size,Form adjusts to screen size,Form adjusts to screen size,Pass,No specific comment provided.
+U04,Integration,Input Field Validation,Enter invalid password,Validation fails,Validation passes,Fail,No specific comment provided.
+U04,Integration,Input Field Validation,Enter invalid password,Validation fails,Validation fails,Pass,No specific comment provided.
+U04,Integration,Verify Error for Password Mismatch,Enter mismatched passwords,Error displayed for mismatch,No error displayed,Fail,No specific comment provided.
+U04,Integration,Verify Error for Password Mismatch,Enter matching passwords,Passwords match,Error displayed,Pass,No specific comment provided.
+U04,Integration,Verify Minimum Password Length,Enter a short password,Password length is 8 or more,Password length is 5,Fail,No specific comment provided.
+U04,Integration,Verify Minimum Password Length,Enter a valid password,Password length is 8 or more,Password length is 12,Pass,No specific comment provided.
+U04,Integration,Verify New Password Field,Check if field exists,Field is visible,Field is visible,Pass,No specific comment provided.
+U04,Integration,Verify Page Load Time,Load page and measure time,Load within 2 seconds,Load within 1.8 seconds,Pass,No specific comment provided.
+U04,Integration,Verify Username/Email Field,Check if field exists,Field is visible,Field is visible,Pass,No specific comment provided.
+U04,Integration,Verify Confirm Password Field,Check if field exists,Field is visible,Field is visible,Pass,No specific comment provided.
+U04,Integration,Verify Password Matching,Enter matching passwords,Passwords match,Passwords match,Pass,No specific comment provided.
+U04,Integration,Verify Change Password Button Enabled,Check if button is enabled,Button is enabled,Button is enabled,Pass,No specific comment provided.
+U04,Integration,Verify Successful Password Change,Submit form,Form submitted successfully,Form submitted successfully,Pass,No specific comment provided.
+U04,Integration,Verify Back to Chat Button,Check link visibility,Link is visible,Link is visible,Pass,No specific comment provided.
+U04,Integration,Verify Password Visibility Toggle,Toggle password visibility,Password is visible,Password is visible,Pass,No specific comment provided.
+U04,Integration,Verify Form Reset After Submission,Submit form and check reset,Form is reset,Form is reset,Pass,No specific comment provided.
+U04,Unit,Validate Username Input,Enter valid username,Username saved,Username saved,Pass,No specific comment provided.
+U04,Unit,Validate New Password Input,Enter valid password,Password saved,Password saved,Pass,No specific comment provided.
+U04,Unit,Validate Confirm Password Input,Enter valid confirmation password,Confirmation password saved,Confirmation password saved,Pass,No specific comment provided.
+U04,Unit,Trigger Form Validation,Click submit button,Validation triggered,Validation triggered,Pass,No specific comment provided.
+U04,Unit,Reset Form After Submission,Reset the form after submission,Form is reset,Form is reset,Pass,No specific comment provided.

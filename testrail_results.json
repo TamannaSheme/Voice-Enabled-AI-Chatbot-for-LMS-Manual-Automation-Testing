@@ -1,0 +1,3922 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 32,
+  "numPassedTests": 215,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 32,
+  "numTotalTests": 215,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1748260196904,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 7,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260204875,
+        "runtime": 2940,
+        "slow": false,
+        "start": 1748260201935
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\instructor.unit.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Instructor Page Unit Testing"
+          ],
+          "duration": 13,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Page Unit Testing [U11] Navigate to Manage Courses page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U11] Navigate to Manage Courses page"
+        },
+        {
+          "ancestorTitles": [
+            "Instructor Page Unit Testing"
+          ],
+          "duration": 10,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Page Unit Testing [U12] Navigate to Upload Materials page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U12] Navigate to Upload Materials page"
+        },
+        {
+          "ancestorTitles": [
+            "Instructor Page Unit Testing"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Page Unit Testing [U13] Navigate to Grade Submissions page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U13] Navigate to Grade Submissions page"
+        },
+        {
+          "ancestorTitles": [
+            "Instructor Page Unit Testing"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Page Unit Testing [U14] Navigate to Set Deadlines page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U14] Navigate to Set Deadlines page"
+        },
+        {
+          "ancestorTitles": [
+            "Instructor Page Unit Testing"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Page Unit Testing [U15] Navigate to Announcements page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U15] Navigate to Announcements page"
+        },
+        {
+          "ancestorTitles": [
+            "Instructor Page Unit Testing"
+          ],
+          "duration": 5,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Page Unit Testing [U16] Navigate to Ask Lumi page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U16] Navigate to Ask Lumi page"
+        },
+        {
+          "ancestorTitles": [
+            "Instructor Page Unit Testing"
+          ],
+          "duration": 47,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Page Unit Testing [U17] Throw error for invalid instructor action",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U17] Throw error for invalid instructor action"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 10,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260204905,
+        "runtime": 3174,
+        "slow": false,
+        "start": 1748260201731
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\settings.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Settings Page Integration Testing"
+          ],
+          "duration": 47,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Settings Page Integration Testing [C13] Page Load",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C13] Page Load"
+        },
+        {
+          "ancestorTitles": [
+            "Settings Page Integration Testing"
+          ],
+          "duration": 19,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Settings Page Integration Testing [C14] Check UI Elements Visibility",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C14] Check UI Elements Visibility"
+        },
+        {
+          "ancestorTitles": [
+            "Settings Page Integration Testing"
+          ],
+          "duration": 22,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Settings Page Integration Testing [C98] Navigate to Voice Settings",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C98] Navigate to Voice Settings"
+        },
+        {
+          "ancestorTitles": [
+            "Settings Page Integration Testing"
+          ],
+          "duration": 11,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Settings Page Integration Testing [C99] Navigate to Preferences Settings",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C99] Navigate to Preferences Settings"
+        },
+        {
+          "ancestorTitles": [
+            "Settings Page Integration Testing"
+          ],
+          "duration": 46,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Settings Page Integration Testing [C101] Navigate to Notifications Settings",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C101] Navigate to Notifications Settings"
+        },
+        {
+          "ancestorTitles": [
+            "Settings Page Integration Testing"
+          ],
+          "duration": 10,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Settings Page Integration Testing [C102] Navigate to Account Settings",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C102] Navigate to Account Settings"
+        },
+        {
+          "ancestorTitles": [
+            "Settings Page Integration Testing"
+          ],
+          "duration": 15,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Settings Page Integration Testing [C149] [Performance] Page Load Time Under 2 Seconds",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C149] [Performance] Page Load Time Under 2 Seconds"
+        },
+        {
+          "ancestorTitles": [
+            "Settings Page Integration Testing"
+          ],
+          "duration": 131,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Settings Page Integration Testing [C150] [Usability] Responsive Design on All Screen Sizes",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C150] [Usability] Responsive Design on All Screen Sizes"
+        },
+        {
+          "ancestorTitles": [
+            "Settings Page Integration Testing"
+          ],
+          "duration": 7,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Settings Page Integration Testing [C151] [Security] HTTPS is Enforced for Settings Page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C151] [Security] HTTPS is Enforced for Settings Page"
+        },
+        {
+          "ancestorTitles": [
+            "Settings Page Integration Testing"
+          ],
+          "duration": 79,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Settings Page Integration Testing [C152] [Accessibility] Keyboard Navigation for All Options",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C152] [Accessibility] Keyboard Navigation for All Options"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 11,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260204981,
+        "runtime": 3216,
+        "slow": false,
+        "start": 1748260201765
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\notifications_setting.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Notifications Settings Page Integration Testing"
+          ],
+          "duration": 66,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Notifications Settings Page Integration Testing [C46] Verify Default Selections",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C46] Verify Default Selections"
+        },
+        {
+          "ancestorTitles": [
+            "Notifications Settings Page Integration Testing"
+          ],
+          "duration": 12,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Notifications Settings Page Integration Testing [C47] Toggle Push Notifications and Save",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C47] Toggle Push Notifications and Save"
+        },
+        {
+          "ancestorTitles": [
+            "Notifications Settings Page Integration Testing"
+          ],
+          "duration": 13,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Notifications Settings Page Integration Testing [C48] Toggle Email Alerts and Save",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C48] Toggle Email Alerts and Save"
+        },
+        {
+          "ancestorTitles": [
+            "Notifications Settings Page Integration Testing"
+          ],
+          "duration": 22,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Notifications Settings Page Integration Testing [C49] Change Sound to Enabled and Save",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C49] Change Sound to Enabled and Save"
+        },
+        {
+          "ancestorTitles": [
+            "Notifications Settings Page Integration Testing"
+          ],
+          "duration": 10,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Notifications Settings Page Integration Testing [C50] Change Sound to Off and Save",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C50] Change Sound to Off and Save"
+        },
+        {
+          "ancestorTitles": [
+            "Notifications Settings Page Integration Testing"
+          ],
+          "duration": 42,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Notifications Settings Page Integration Testing [C51] Back to Settings Navigation",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C51] Back to Settings Navigation"
+        },
+        {
+          "ancestorTitles": [
+            "Notifications Settings Page Integration Testing"
+          ],
+          "duration": 12,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Notifications Settings Page Integration Testing [C159] Page Load",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C159] Page Load"
+        },
+        {
+          "ancestorTitles": [
+            "Notifications Settings Page Integration Testing"
+          ],
+          "duration": 21,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Notifications Settings Page Integration Testing [C160] Check UI Elements Visibility",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C160] Check UI Elements Visibility"
+        },
+        {
+          "ancestorTitles": [
+            "Notifications Settings Page Integration Testing"
+          ],
+          "duration": 11,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Notifications Settings Page Integration Testing [C161] [Performance] Notification Settings Save Response Time Under 1 Second",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C161] [Performance] Notification Settings Save Response Time Under 1 Second"
+        },
+        {
+          "ancestorTitles": [
+            "Notifications Settings Page Integration Testing"
+          ],
+          "duration": 118,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Notifications Settings Page Integration Testing [C162] [Accessibility] Keyboard Navigation for All Notification Options",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C162] [Accessibility] Keyboard Navigation for All Notification Options"
+        },
+        {
+          "ancestorTitles": [
+            "Notifications Settings Page Integration Testing"
+          ],
+          "duration": 182,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Notifications Settings Page Integration Testing [C163] [Usability] Notifications Settings Display Consistency Across Devices",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C163] [Usability] Notifications Settings Display Consistency Across Devices"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 9,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260204991,
+        "runtime": 3048,
+        "slow": false,
+        "start": 1748260201943
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\account_setting.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Account Settings Page Integration Testing"
+          ],
+          "duration": 132,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Account Settings Page Integration Testing [C52] Check Name and Email Display",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C52] Check Name and Email Display"
+        },
+        {
+          "ancestorTitles": [
+            "Account Settings Page Integration Testing"
+          ],
+          "duration": 19,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Account Settings Page Integration Testing [C53] Toggle Password Visibility",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C53] Toggle Password Visibility"
+        },
+        {
+          "ancestorTitles": [
+            "Account Settings Page Integration Testing"
+          ],
+          "duration": 6,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Account Settings Page Integration Testing [C54] Verify Default Linked Account Selection",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C54] Verify Default Linked Account Selection"
+        },
+        {
+          "ancestorTitles": [
+            "Account Settings Page Integration Testing"
+          ],
+          "duration": 6,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Account Settings Page Integration Testing [C55] Change Linked Account Option",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C55] Change Linked Account Option"
+        },
+        {
+          "ancestorTitles": [
+            "Account Settings Page Integration Testing"
+          ],
+          "duration": 7,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Account Settings Page Integration Testing [C56] Logout Button Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C56] Logout Button Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Account Settings Page Integration Testing"
+          ],
+          "duration": 43,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Account Settings Page Integration Testing [C57] Back to Settings Navigation",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C57] Back to Settings Navigation"
+        },
+        {
+          "ancestorTitles": [
+            "Account Settings Page Integration Testing"
+          ],
+          "duration": 31,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Account Settings Page Integration Testing [C164] [Performance] Page Load Time Under 2 Seconds",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C164] [Performance] Page Load Time Under 2 Seconds"
+        },
+        {
+          "ancestorTitles": [
+            "Account Settings Page Integration Testing"
+          ],
+          "duration": 36,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Account Settings Page Integration Testing [C165] [Accessibility] Keyboard Navigation for All Interactive Settings Options",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C165] [Accessibility] Keyboard Navigation for All Interactive Settings Options"
+        },
+        {
+          "ancestorTitles": [
+            "Account Settings Page Integration Testing"
+          ],
+          "duration": 11,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Account Settings Page Integration Testing [C166] [Security] HTTPS is Enforced for Account Settings Page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C166] [Security] HTTPS is Enforced for Account Settings Page"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 4,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260205019,
+        "runtime": 3060,
+        "slow": false,
+        "start": 1748260201959
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\ask_lumi.unit.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Unit Testing"
+          ],
+          "duration": 131,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Unit Testing [U31] Submit Question Successfully",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U31] Submit Question Successfully"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Unit Testing"
+          ],
+          "duration": 28,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Unit Testing [U32] Submit Without Question",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U32] Submit Without Question"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Unit Testing"
+          ],
+          "duration": 18,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Unit Testing [U33] Voice Input - Microphone Access Granted",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U33] Voice Input - Microphone Access Granted"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Unit Testing"
+          ],
+          "duration": 15,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Unit Testing [U34] Voice Input - Microphone Access Denied",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U34] Voice Input - Microphone Access Denied"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 9,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260205112,
+        "runtime": 3228,
+        "slow": false,
+        "start": 1748260201884
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\faq.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "FAQ Page Integration Testing"
+          ],
+          "duration": 112,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FAQ Page Integration Testing [C58] Check visibility of FAQ questions",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C58] Check visibility of FAQ questions"
+        },
+        {
+          "ancestorTitles": [
+            "FAQ Page Integration Testing"
+          ],
+          "duration": 35,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FAQ Page Integration Testing [C59] Expand answer to first question",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C59] Expand answer to first question"
+        },
+        {
+          "ancestorTitles": [
+            "FAQ Page Integration Testing"
+          ],
+          "duration": 8,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FAQ Page Integration Testing [C60] Collapse answer on second click",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C60] Collapse answer on second click"
+        },
+        {
+          "ancestorTitles": [
+            "FAQ Page Integration Testing"
+          ],
+          "duration": 15,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FAQ Page Integration Testing [C61] Navigate to 'Ask Lumi a New Question'",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C61] Navigate to 'Ask Lumi a New Question'"
+        },
+        {
+          "ancestorTitles": [
+            "FAQ Page Integration Testing"
+          ],
+          "duration": 25,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FAQ Page Integration Testing [C62] Verify expand/collapse is independent",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C62] Verify expand/collapse is independent"
+        },
+        {
+          "ancestorTitles": [
+            "FAQ Page Integration Testing"
+          ],
+          "duration": 78,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FAQ Page Integration Testing [C63] Check FAQ layout responsiveness",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C63] Check FAQ layout responsiveness"
+        },
+        {
+          "ancestorTitles": [
+            "FAQ Page Integration Testing"
+          ],
+          "duration": 24,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FAQ Page Integration Testing [C167] [Performance] Page Load Time Under 2 Seconds",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C167] [Performance] Page Load Time Under 2 Seconds"
+        },
+        {
+          "ancestorTitles": [
+            "FAQ Page Integration Testing"
+          ],
+          "duration": 31,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FAQ Page Integration Testing [C168] [Usability] FAQ Accessibility via Keyboard Navigation",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C168] [Usability] FAQ Accessibility via Keyboard Navigation"
+        },
+        {
+          "ancestorTitles": [
+            "FAQ Page Integration Testing"
+          ],
+          "duration": 8,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FAQ Page Integration Testing [C169] [Responsiveness] FAQ Layout Adjusts Properly on Various Screen Sizes",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C169] [Responsiveness] FAQ Layout Adjusts Properly on Various Screen Sizes"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 9,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260205131,
+        "runtime": 3472,
+        "slow": false,
+        "start": 1748260201659
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\role.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Role Selection Page Testing"
+          ],
+          "duration": 119,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Role Selection Page Testing [C105] Verify Role Selection Page Loads Successfully",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C105] Verify Role Selection Page Loads Successfully"
+        },
+        {
+          "ancestorTitles": [
+            "Role Selection Page Testing"
+          ],
+          "duration": 25,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Role Selection Page Testing [C106] Verify Role Selection for Student",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C106] Verify Role Selection for Student"
+        },
+        {
+          "ancestorTitles": [
+            "Role Selection Page Testing"
+          ],
+          "duration": 76,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Role Selection Page Testing [C107] Verify Role Selection for Instructor",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C107] Verify Role Selection for Instructor"
+        },
+        {
+          "ancestorTitles": [
+            "Role Selection Page Testing"
+          ],
+          "duration": 80,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Role Selection Page Testing [C109] Verify Logo is Displayed",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C109] Verify Logo is Displayed"
+        },
+        {
+          "ancestorTitles": [
+            "Role Selection Page Testing"
+          ],
+          "duration": 33,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Role Selection Page Testing [C110] Verify Navigation for Student Role",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C110] Verify Navigation for Student Role"
+        },
+        {
+          "ancestorTitles": [
+            "Role Selection Page Testing"
+          ],
+          "duration": 23,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Role Selection Page Testing [C111] Verify Visibility of Role Selection Buttons",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C111] Verify Visibility of Role Selection Buttons"
+        },
+        {
+          "ancestorTitles": [
+            "Role Selection Page Testing"
+          ],
+          "duration": 37,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Role Selection Page Testing [C179] [Performance] Role Page Load Time Under 2 Seconds",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C179] [Performance] Role Page Load Time Under 2 Seconds"
+        },
+        {
+          "ancestorTitles": [
+            "Role Selection Page Testing"
+          ],
+          "duration": 156,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Role Selection Page Testing [C181] [Usability] Consistent Button Layout Across Different Screen Sizes",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C181] [Usability] Consistent Button Layout Across Different Screen Sizes"
+        },
+        {
+          "ancestorTitles": [
+            "Role Selection Page Testing"
+          ],
+          "duration": 97,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Role Selection Page Testing [C182] [Security] Secure Role Selection with Encrypted URL Parameters",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C182] [Security] Secure Role Selection with Encrypted URL Parameters"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 11,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260205150,
+        "runtime": 3360,
+        "slow": false,
+        "start": 1748260201790
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\instructor.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Instructor Role Page Complete Integration Testing"
+          ],
+          "duration": 64,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Role Page Complete Integration Testing [C123] Manage Courses Button Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C123] Manage Courses Button Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Instructor Role Page Complete Integration Testing"
+          ],
+          "duration": 11,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Role Page Complete Integration Testing [C124] Manage Courses Button Functionality Duplicate",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C124] Manage Courses Button Functionality Duplicate"
+        },
+        {
+          "ancestorTitles": [
+            "Instructor Role Page Complete Integration Testing"
+          ],
+          "duration": 9,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Role Page Complete Integration Testing [C125] Instructor Page Access Control",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C125] Instructor Page Access Control"
+        },
+        {
+          "ancestorTitles": [
+            "Instructor Role Page Complete Integration Testing"
+          ],
+          "duration": 14,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Role Page Complete Integration Testing [C126] Upload Materials Button Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C126] Upload Materials Button Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Instructor Role Page Complete Integration Testing"
+          ],
+          "duration": 5,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Role Page Complete Integration Testing [C127] Grade Submissions Button Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C127] Grade Submissions Button Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Instructor Role Page Complete Integration Testing"
+          ],
+          "duration": 5,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Role Page Complete Integration Testing [C128] Set Deadlines Button Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C128] Set Deadlines Button Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Instructor Role Page Complete Integration Testing"
+          ],
+          "duration": 5,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Role Page Complete Integration Testing [C129] Announcements Button Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C129] Announcements Button Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Instructor Role Page Complete Integration Testing"
+          ],
+          "duration": 6,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Role Page Complete Integration Testing [C130] Ask Lumi Button Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C130] Ask Lumi Button Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Instructor Role Page Complete Integration Testing"
+          ],
+          "duration": 26,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Role Page Complete Integration Testing [C176] [Performance] Instructor Role Page Load Time Under 2 Seconds",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C176] [Performance] Instructor Role Page Load Time Under 2 Seconds"
+        },
+        {
+          "ancestorTitles": [
+            "Instructor Role Page Complete Integration Testing"
+          ],
+          "duration": 168,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Role Page Complete Integration Testing [C177] [Usability] Consistent Button Layout Across Different Screen Sizes",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C177] [Usability] Consistent Button Layout Across Different Screen Sizes"
+        },
+        {
+          "ancestorTitles": [
+            "Instructor Role Page Complete Integration Testing"
+          ],
+          "duration": 163,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instructor Role Page Complete Integration Testing [C178] [Accessibility] Keyboard Navigation for All Options Accessible",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C178] [Accessibility] Keyboard Navigation for All Options Accessible"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 9,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260205174,
+        "runtime": 3428,
+        "slow": false,
+        "start": 1748260201746
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\preferences_setting.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Preferences Settings Page Integration Testing"
+          ],
+          "duration": 54,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Preferences Settings Page Integration Testing [C39] Check Default Preference Selections",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C39] Check Default Preference Selections"
+        },
+        {
+          "ancestorTitles": [
+            "Preferences Settings Page Integration Testing"
+          ],
+          "duration": 19,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Preferences Settings Page Integration Testing [C40] Change Theme Preference and Save",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C40] Change Theme Preference and Save"
+        },
+        {
+          "ancestorTitles": [
+            "Preferences Settings Page Integration Testing"
+          ],
+          "duration": 8,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Preferences Settings Page Integration Testing [C41] Change Font Size and Save",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C41] Change Font Size and Save"
+        },
+        {
+          "ancestorTitles": [
+            "Preferences Settings Page Integration Testing"
+          ],
+          "duration": 48,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Preferences Settings Page Integration Testing [C42] Back to Settings Navigation",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C42] Back to Settings Navigation"
+        },
+        {
+          "ancestorTitles": [
+            "Preferences Settings Page Integration Testing"
+          ],
+          "duration": 15,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Preferences Settings Page Integration Testing [C43] Verify App Language Option",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C43] Verify App Language Option"
+        },
+        {
+          "ancestorTitles": [
+            "Preferences Settings Page Integration Testing"
+          ],
+          "duration": 10,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Preferences Settings Page Integration Testing [C44] Verify Save Button Without Changes",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C44] Verify Save Button Without Changes"
+        },
+        {
+          "ancestorTitles": [
+            "Preferences Settings Page Integration Testing"
+          ],
+          "duration": 12,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Preferences Settings Page Integration Testing [C156] [Performance] Save Changes Response Time Under 1 Second",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C156] [Performance] Save Changes Response Time Under 1 Second"
+        },
+        {
+          "ancestorTitles": [
+            "Preferences Settings Page Integration Testing"
+          ],
+          "duration": 98,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Preferences Settings Page Integration Testing [C157] [Accessibility] Keyboard Navigation for All Options",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C157] [Accessibility] Keyboard Navigation for All Options"
+        },
+        {
+          "ancestorTitles": [
+            "Preferences Settings Page Integration Testing"
+          ],
+          "duration": 352,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Preferences Settings Page Integration Testing [C158] [Usability] Preferences Display Consistency Across Devices",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C158] [Usability] Preferences Display Consistency Across Devices"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 11,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260205395,
+        "runtime": 3343,
+        "slow": false,
+        "start": 1748260202052
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\admin.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Admin Role Page Testing"
+          ],
+          "duration": 109,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Role Page Testing [C133] Visual Consistency Check",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C133] Visual Consistency Check"
+        },
+        {
+          "ancestorTitles": [
+            "Admin Role Page Testing"
+          ],
+          "duration": 44,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Role Page Testing [C135] Admin Page Access Control",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C135] Admin Page Access Control"
+        },
+        {
+          "ancestorTitles": [
+            "Admin Role Page Testing"
+          ],
+          "duration": 20,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Role Page Testing [C136] Manage Users Button Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C136] Manage Users Button Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Admin Role Page Testing"
+          ],
+          "duration": 39,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Role Page Testing [C137] Role Access Control Button Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C137] Role Access Control Button Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Admin Role Page Testing"
+          ],
+          "duration": 37,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Role Page Testing [C138] Platform Stats Button Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C138] Platform Stats Button Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Admin Role Page Testing"
+          ],
+          "duration": 49,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Role Page Testing [C139] Global Announcements Button Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C139] Global Announcements Button Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Admin Role Page Testing"
+          ],
+          "duration": 41,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Role Page Testing [C140] System Settings Button Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C140] System Settings Button Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Admin Role Page Testing"
+          ],
+          "duration": 24,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Role Page Testing [C141] Ask Lumi Button Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C141] Ask Lumi Button Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Admin Role Page Testing"
+          ],
+          "duration": 44,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Role Page Testing [C170] [Performance] Admin Page Load Time Under 2 Seconds",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C170] [Performance] Admin Page Load Time Under 2 Seconds"
+        },
+        {
+          "ancestorTitles": [
+            "Admin Role Page Testing"
+          ],
+          "duration": 47,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Role Page Testing [C171] [Security] Secure Access Control for Admin Page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C171] [Security] Secure Access Control for Admin Page"
+        },
+        {
+          "ancestorTitles": [
+            "Admin Role Page Testing"
+          ],
+          "duration": 12,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Role Page Testing [C172] [Usability] Admin Page Layout Consistency Across Different Screen Sizes",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C172] [Usability] Admin Page Layout Consistency Across Different Screen Sizes"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 11,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260205464,
+        "runtime": 3336,
+        "slow": false,
+        "start": 1748260202128
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\student.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Student Role Page Integration Testing"
+          ],
+          "duration": 135,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Role Page Integration Testing [C113] Verify Student Role Page Loads Successfully",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C113] Verify Student Role Page Loads Successfully"
+        },
+        {
+          "ancestorTitles": [
+            "Student Role Page Integration Testing"
+          ],
+          "duration": 68,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Role Page Integration Testing [C114] Verify Enrolled Courses Card Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C114] Verify Enrolled Courses Card Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Student Role Page Integration Testing"
+          ],
+          "duration": 11,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Role Page Integration Testing [C115] Verify Upcoming Deadlines Card Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C115] Verify Upcoming Deadlines Card Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Student Role Page Integration Testing"
+          ],
+          "duration": 11,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Role Page Integration Testing [C116] Verify Submit Assignment Card Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C116] Verify Submit Assignment Card Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Student Role Page Integration Testing"
+          ],
+          "duration": 6,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Role Page Integration Testing [C117] Verify View Grades Card Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C117] Verify View Grades Card Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Student Role Page Integration Testing"
+          ],
+          "duration": 10,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Role Page Integration Testing [C118] Verify Notifications Card Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C118] Verify Notifications Card Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Student Role Page Integration Testing"
+          ],
+          "duration": 5,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Role Page Integration Testing [C121] Verify Ask Lumi Card Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C121] Verify Ask Lumi Card Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Student Role Page Integration Testing"
+          ],
+          "duration": 24,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Role Page Integration Testing [C122] Verify Button Hover Effects",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C122] Verify Button Hover Effects"
+        },
+        {
+          "ancestorTitles": [
+            "Student Role Page Integration Testing"
+          ],
+          "duration": 19,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Role Page Integration Testing [C173] [Performance] Student Role Page Load Time Under 2 Seconds",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C173] [Performance] Student Role Page Load Time Under 2 Seconds"
+        },
+        {
+          "ancestorTitles": [
+            "Student Role Page Integration Testing"
+          ],
+          "duration": 127,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Role Page Integration Testing [C174] [Usability] Consistent Button Layout Across Different Screen Sizes",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C174] [Usability] Consistent Button Layout Across Different Screen Sizes"
+        },
+        {
+          "ancestorTitles": [
+            "Student Role Page Integration Testing"
+          ],
+          "duration": 26,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Role Page Integration Testing [C175] [Accessibility] ARIA Labels Properly Implemented for Screen Readers",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C175] [Accessibility] ARIA Labels Properly Implemented for Screen Readers"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 4,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260205820,
+        "runtime": 759,
+        "slow": false,
+        "start": 1748260205061
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\settings.unit.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Settings Page Unit Testing"
+          ],
+          "duration": 128,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Settings Page Unit Testing [U91] Navigate to Voice Settings",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U91] Navigate to Voice Settings"
+        },
+        {
+          "ancestorTitles": [
+            "Settings Page Unit Testing"
+          ],
+          "duration": 9,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Settings Page Unit Testing [U92] Navigate to Preferences Settings",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U92] Navigate to Preferences Settings"
+        },
+        {
+          "ancestorTitles": [
+            "Settings Page Unit Testing"
+          ],
+          "duration": 7,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Settings Page Unit Testing [U93] Navigate to Notifications Settings",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U93] Navigate to Notifications Settings"
+        },
+        {
+          "ancestorTitles": [
+            "Settings Page Unit Testing"
+          ],
+          "duration": 9,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Settings Page Unit Testing [U94] Navigate to Account Settings",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U94] Navigate to Account Settings"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 4,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260205932,
+        "runtime": 674,
+        "slow": false,
+        "start": 1748260205258
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\preferences_settings.unit.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Preferences Settings Page Unit Testing"
+          ],
+          "duration": 28,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Preferences Settings Page Unit Testing [U55] Change Theme Preference",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U55] Change Theme Preference"
+        },
+        {
+          "ancestorTitles": [
+            "Preferences Settings Page Unit Testing"
+          ],
+          "duration": 41,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Preferences Settings Page Unit Testing [U56] Change Font Size",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U56] Change Font Size"
+        },
+        {
+          "ancestorTitles": [
+            "Preferences Settings Page Unit Testing"
+          ],
+          "duration": 17,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Preferences Settings Page Unit Testing [U57] Change App Language",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U57] Change App Language"
+        },
+        {
+          "ancestorTitles": [
+            "Preferences Settings Page Unit Testing"
+          ],
+          "duration": 10,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Preferences Settings Page Unit Testing [U58] Save Settings Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U58] Save Settings Functionality"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 5,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260205878,
+        "runtime": 762,
+        "slow": false,
+        "start": 1748260205116
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\reset_password.unit.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Reset Password Page Unit Testing"
+          ],
+          "duration": 7,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Unit Testing [U99] Validate Username Input",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U99] Validate Username Input"
+        },
+        {
+          "ancestorTitles": [
+            "Reset Password Page Unit Testing"
+          ],
+          "duration": 25,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Unit Testing [U100] Validate New Password Input",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U100] Validate New Password Input"
+        },
+        {
+          "ancestorTitles": [
+            "Reset Password Page Unit Testing"
+          ],
+          "duration": 14,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Unit Testing [U101] Validate Confirm Password Input",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U101] Validate Confirm Password Input"
+        },
+        {
+          "ancestorTitles": [
+            "Reset Password Page Unit Testing"
+          ],
+          "duration": 123,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Unit Testing [U102] Trigger Form Validation",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U102] Trigger Form Validation"
+        },
+        {
+          "ancestorTitles": [
+            "Reset Password Page Unit Testing"
+          ],
+          "duration": 4,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Unit Testing [U103] Reset Form After Submission",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U103] Reset Form After Submission"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 5,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260205896,
+        "runtime": 668,
+        "slow": false,
+        "start": 1748260205228
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\voice_settings.unit.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Voice Settings Page Unit Testing"
+          ],
+          "duration": 23,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Voice Settings Page Unit Testing [U71] Toggle Voice Input",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U71] Toggle Voice Input"
+        },
+        {
+          "ancestorTitles": [
+            "Voice Settings Page Unit Testing"
+          ],
+          "duration": 5,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Voice Settings Page Unit Testing [U72] Change Speech Mode",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U72] Change Speech Mode"
+        },
+        {
+          "ancestorTitles": [
+            "Voice Settings Page Unit Testing"
+          ],
+          "duration": 4,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Voice Settings Page Unit Testing [U73] Change Language Option",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U73] Change Language Option"
+        },
+        {
+          "ancestorTitles": [
+            "Voice Settings Page Unit Testing"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Voice Settings Page Unit Testing [U74] Toggle Auto-Delete Option",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U74] Toggle Auto-Delete Option"
+        },
+        {
+          "ancestorTitles": [
+            "Voice Settings Page Unit Testing"
+          ],
+          "duration": 50,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Voice Settings Page Unit Testing [U75] Save Settings Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U75] Save Settings Functionality"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 4,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260205930,
+        "runtime": 647,
+        "slow": false,
+        "start": 1748260205283
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\notifications_settings.unit.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Notifications Settings Page Unit Testing"
+          ],
+          "duration": 50,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Notifications Settings Page Unit Testing [U51] Toggle Push Notifications",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U51] Toggle Push Notifications"
+        },
+        {
+          "ancestorTitles": [
+            "Notifications Settings Page Unit Testing"
+          ],
+          "duration": 6,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Notifications Settings Page Unit Testing [U52] Toggle Email Alerts",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U52] Toggle Email Alerts"
+        },
+        {
+          "ancestorTitles": [
+            "Notifications Settings Page Unit Testing"
+          ],
+          "duration": 4,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Notifications Settings Page Unit Testing [U53] Change Sound Option",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U53] Change Sound Option"
+        },
+        {
+          "ancestorTitles": [
+            "Notifications Settings Page Unit Testing"
+          ],
+          "duration": 6,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Notifications Settings Page Unit Testing [U54] Save Settings Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U54] Save Settings Functionality"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 4,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260205937,
+        "runtime": 629,
+        "slow": false,
+        "start": 1748260205308
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\role.unit.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "handleRole Function Unit Test"
+          ],
+          "duration": 8,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "handleRole Function Unit Test [U95] Navigate to Student page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U95] Navigate to Student page"
+        },
+        {
+          "ancestorTitles": [
+            "handleRole Function Unit Test"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "handleRole Function Unit Test [U96] Navigate to Admin page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U96] Navigate to Admin page"
+        },
+        {
+          "ancestorTitles": [
+            "handleRole Function Unit Test"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "handleRole Function Unit Test [U97] Navigate to Instructor page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U97] Navigate to Instructor page"
+        },
+        {
+          "ancestorTitles": [
+            "handleRole Function Unit Test"
+          ],
+          "duration": 18,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "handleRole Function Unit Test [U98] Throw error for invalid role",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U98] Throw error for invalid role"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 5,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260205996,
+        "runtime": 678,
+        "slow": false,
+        "start": 1748260205318
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\index.unit.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Welcome Page Unit Testing"
+          ],
+          "duration": 10,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Welcome Page Unit Testing [U01] Validate Student ID Input",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U01] Validate Student ID Input"
+        },
+        {
+          "ancestorTitles": [
+            "Welcome Page Unit Testing"
+          ],
+          "duration": 9,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Welcome Page Unit Testing [U02] Validate Phone Number Input",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U02] Validate Phone Number Input"
+        },
+        {
+          "ancestorTitles": [
+            "Welcome Page Unit Testing"
+          ],
+          "duration": 4,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Welcome Page Unit Testing [U03] Validate Email Input",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U03] Validate Email Input"
+        },
+        {
+          "ancestorTitles": [
+            "Welcome Page Unit Testing"
+          ],
+          "duration": 9,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Welcome Page Unit Testing [U04] Submit Form - Call Validate Function",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U04] Submit Form - Call Validate Function"
+        },
+        {
+          "ancestorTitles": [
+            "Welcome Page Unit Testing"
+          ],
+          "duration": 25,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Welcome Page Unit Testing [U05] Voice Recognition Error Display",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U05] Voice Recognition Error Display"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 4,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260205981,
+        "runtime": 645,
+        "slow": false,
+        "start": 1748260205336
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\account_settings.unit.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Account Settings Page Unit Testing"
+          ],
+          "duration": 17,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Account Settings Page Unit Testing [U01] Display Username and Email",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U01] Display Username and Email"
+        },
+        {
+          "ancestorTitles": [
+            "Account Settings Page Unit Testing"
+          ],
+          "duration": 17,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Account Settings Page Unit Testing [U02] Toggle Password Visibility",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U02] Toggle Password Visibility"
+        },
+        {
+          "ancestorTitles": [
+            "Account Settings Page Unit Testing"
+          ],
+          "duration": 9,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Account Settings Page Unit Testing [U03] Change Linked Account Option",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U03] Change Linked Account Option"
+        },
+        {
+          "ancestorTitles": [
+            "Account Settings Page Unit Testing"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Account Settings Page Unit Testing [U04] Save Settings Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U04] Save Settings Functionality"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 7,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260206162,
+        "runtime": 519,
+        "slow": false,
+        "start": 1748260205643
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\admin.unit.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Admin Page Unit Testing"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Page Unit Testing [U21] Navigate to Manage Users",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U21] Navigate to Manage Users"
+        },
+        {
+          "ancestorTitles": [
+            "Admin Page Unit Testing"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Page Unit Testing [U22] Navigate to Role Access",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U22] Navigate to Role Access"
+        },
+        {
+          "ancestorTitles": [
+            "Admin Page Unit Testing"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Page Unit Testing [U23] Navigate to Platform Stats",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U23] Navigate to Platform Stats"
+        },
+        {
+          "ancestorTitles": [
+            "Admin Page Unit Testing"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Page Unit Testing [U24] Navigate to Global Announcements",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U24] Navigate to Global Announcements"
+        },
+        {
+          "ancestorTitles": [
+            "Admin Page Unit Testing"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Page Unit Testing [U25] Navigate to System Settings",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U25] Navigate to System Settings"
+        },
+        {
+          "ancestorTitles": [
+            "Admin Page Unit Testing"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Page Unit Testing [U26] Navigate to Ask Lumi",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U26] Navigate to Ask Lumi"
+        },
+        {
+          "ancestorTitles": [
+            "Admin Page Unit Testing"
+          ],
+          "duration": 34,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Admin Page Unit Testing [U27] Invalid Action Throws Error",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U27] Invalid Action Throws Error"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 3,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260206316,
+        "runtime": 583,
+        "slow": false,
+        "start": 1748260205733
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\faq.unit.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "FAQ Page Unit Testing"
+          ],
+          "duration": 26,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FAQ Page Unit Testing [U41] Toggle answer display from none to block",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U41] Toggle answer display from none to block"
+        },
+        {
+          "ancestorTitles": [
+            "FAQ Page Unit Testing"
+          ],
+          "duration": 20,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FAQ Page Unit Testing [U42] Toggle answer display from block to none",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U42] Toggle answer display from block to none"
+        },
+        {
+          "ancestorTitles": [
+            "FAQ Page Unit Testing"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FAQ Page Unit Testing [U43] Navigate to Ask Lumi page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U43] Navigate to Ask Lumi page"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 7,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260206619,
+        "runtime": 557,
+        "slow": false,
+        "start": 1748260206062
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\Student.unit.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Student Page Unit Testing"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Page Unit Testing [U81] Navigate to Enrolled Courses page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U81] Navigate to Enrolled Courses page"
+        },
+        {
+          "ancestorTitles": [
+            "Student Page Unit Testing"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Page Unit Testing [U82] Navigate to Upcoming Deadlines page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U82] Navigate to Upcoming Deadlines page"
+        },
+        {
+          "ancestorTitles": [
+            "Student Page Unit Testing"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Page Unit Testing [U83] Navigate to Submit Assignment page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U83] Navigate to Submit Assignment page"
+        },
+        {
+          "ancestorTitles": [
+            "Student Page Unit Testing"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Page Unit Testing [U84] Navigate to Notifications page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U84] Navigate to Notifications page"
+        },
+        {
+          "ancestorTitles": [
+            "Student Page Unit Testing"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Page Unit Testing [U85] Navigate to View Grades page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U85] Navigate to View Grades page"
+        },
+        {
+          "ancestorTitles": [
+            "Student Page Unit Testing"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Page Unit Testing [U86] Navigate to Ask Lumi page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U86] Navigate to Ask Lumi page"
+        },
+        {
+          "ancestorTitles": [
+            "Student Page Unit Testing"
+          ],
+          "duration": 18,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Student Page Unit Testing [U87] Throw error for invalid student action",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[U87] Throw error for invalid student action"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 9,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260207904,
+        "runtime": 5890,
+        "slow": true,
+        "start": 1748260202014
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\voice_setting.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Voice Settings Page Integration Testing"
+          ],
+          "duration": 202,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Voice Settings Page Integration Testing [C20] Enable/Disable Voice Input",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C20] Enable/Disable Voice Input"
+        },
+        {
+          "ancestorTitles": [
+            "Voice Settings Page Integration Testing"
+          ],
+          "duration": 34,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Voice Settings Page Integration Testing [C21] Select Speech Mode Option",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C21] Select Speech Mode Option"
+        },
+        {
+          "ancestorTitles": [
+            "Voice Settings Page Integration Testing"
+          ],
+          "duration": 34,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Voice Settings Page Integration Testing [C22] Change Language Option",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C22] Change Language Option"
+        },
+        {
+          "ancestorTitles": [
+            "Voice Settings Page Integration Testing"
+          ],
+          "duration": 60,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Voice Settings Page Integration Testing [C23] Change Auto-Delete Option",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C23] Change Auto-Delete Option"
+        },
+        {
+          "ancestorTitles": [
+            "Voice Settings Page Integration Testing"
+          ],
+          "duration": 42,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Voice Settings Page Integration Testing [C24] Save Button Functionality",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C24] Save Button Functionality"
+        },
+        {
+          "ancestorTitles": [
+            "Voice Settings Page Integration Testing"
+          ],
+          "duration": 56,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Voice Settings Page Integration Testing [C25] Navigation to Settings Page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C25] Navigation to Settings Page"
+        },
+        {
+          "ancestorTitles": [
+            "Voice Settings Page Integration Testing"
+          ],
+          "duration": 38,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Voice Settings Page Integration Testing [C153] [Performance] Save Changes Response Time Under 1 Second",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C153] [Performance] Save Changes Response Time Under 1 Second"
+        },
+        {
+          "ancestorTitles": [
+            "Voice Settings Page Integration Testing"
+          ],
+          "duration": 73,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Voice Settings Page Integration Testing [C154] [Accessibility] Keyboard Navigation for All Options",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C154] [Accessibility] Keyboard Navigation for All Options"
+        },
+        {
+          "ancestorTitles": [
+            "Voice Settings Page Integration Testing"
+          ],
+          "duration": 54,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Voice Settings Page Integration Testing [C155] [Usability] Speech Mode Option is Responsive",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C155] [Usability] Speech Mode Option is Responsive"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260207963,
+        "runtime": 360,
+        "slow": false,
+        "start": 1748260207603
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\ui.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [],
+          "duration": 5,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "UI loads correctly",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "UI loads correctly"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260208020,
+        "runtime": 371,
+        "slow": false,
+        "start": 1748260207649
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\voice.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "responds to known command",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "responds to known command"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260208050,
+        "runtime": 388,
+        "slow": false,
+        "start": 1748260207662
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\sample.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "basic sample test",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "basic sample test"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260208080,
+        "runtime": 411,
+        "slow": false,
+        "start": 1748260207669
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\navigate.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [],
+          "duration": 20,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "navigate to voice page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "navigate to voice page"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 3,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260208088,
+        "runtime": 404,
+        "slow": false,
+        "start": 1748260207684
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\sample.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "C3 - Submit Button works",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "C3 - Submit Button works"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "C4 - Email field accepts valid input",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "C4 - Email field accepts valid input"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "C5 - Validation fails on empty form",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "C5 - Validation fails on empty form"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 13,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260208098,
+        "runtime": 6152,
+        "slow": true,
+        "start": 1748260201946
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\reset_password.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Reset Password Page Integration Testing"
+          ],
+          "duration": 202,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Integration Testing [C184] Input Field Validation",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C184] Input Field Validation"
+        },
+        {
+          "ancestorTitles": [
+            "Reset Password Page Integration Testing"
+          ],
+          "duration": 36,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Integration Testing [C186] Verify New Password Field",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C186] Verify New Password Field"
+        },
+        {
+          "ancestorTitles": [
+            "Reset Password Page Integration Testing"
+          ],
+          "duration": 51,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Integration Testing [C187] Verify Page Load Time",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C187] Verify Page Load Time"
+        },
+        {
+          "ancestorTitles": [
+            "Reset Password Page Integration Testing"
+          ],
+          "duration": 36,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Integration Testing [C188] Verify Username/Email Field",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C188] Verify Username/Email Field"
+        },
+        {
+          "ancestorTitles": [
+            "Reset Password Page Integration Testing"
+          ],
+          "duration": 41,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Integration Testing [C189] Verify Confirm Password Field",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C189] Verify Confirm Password Field"
+        },
+        {
+          "ancestorTitles": [
+            "Reset Password Page Integration Testing"
+          ],
+          "duration": 43,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Integration Testing [C190] Verify Password Matching",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C190] Verify Password Matching"
+        },
+        {
+          "ancestorTitles": [
+            "Reset Password Page Integration Testing"
+          ],
+          "duration": 48,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Integration Testing [C191] Verify Change Password Button Enabled",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C191] Verify Change Password Button Enabled"
+        },
+        {
+          "ancestorTitles": [
+            "Reset Password Page Integration Testing"
+          ],
+          "duration": 29,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Integration Testing [C192] Verify Error for Invalid Email",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C192] Verify Error for Invalid Email"
+        },
+        {
+          "ancestorTitles": [
+            "Reset Password Page Integration Testing"
+          ],
+          "duration": 49,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Integration Testing [C193] Verify Successful Password Change",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C193] Verify Successful Password Change"
+        },
+        {
+          "ancestorTitles": [
+            "Reset Password Page Integration Testing"
+          ],
+          "duration": 50,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Integration Testing [C194] Verify Back to Chat Button",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C194] Verify Back to Chat Button"
+        },
+        {
+          "ancestorTitles": [
+            "Reset Password Page Integration Testing"
+          ],
+          "duration": 84,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Integration Testing [C195] [Performance] Verify Page Load Time",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C195] [Performance] Verify Page Load Time"
+        },
+        {
+          "ancestorTitles": [
+            "Reset Password Page Integration Testing"
+          ],
+          "duration": 22,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Integration Testing [C196] [Usability] Verify UI Consistency",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C196] [Usability] Verify UI Consistency"
+        },
+        {
+          "ancestorTitles": [
+            "Reset Password Page Integration Testing"
+          ],
+          "duration": 35,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Reset Password Page Integration Testing [C197] [Accessibility] Verify Screen Reader Compatibility",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C197] [Accessibility] Verify Screen Reader Compatibility"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 12,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260208107,
+        "runtime": 6177,
+        "slow": true,
+        "start": 1748260201930
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\index.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Welcome Page Integration Testing"
+          ],
+          "duration": 216,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Welcome Page Integration Testing [C1] Page Load",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C1] Page Load"
+        },
+        {
+          "ancestorTitles": [
+            "Welcome Page Integration Testing"
+          ],
+          "duration": 111,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Welcome Page Integration Testing [C8] Successful Form Submission",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C8] Successful Form Submission"
+        },
+        {
+          "ancestorTitles": [
+            "Welcome Page Integration Testing"
+          ],
+          "duration": 44,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Welcome Page Integration Testing [C198] Email Input - Valid Email",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C198] Email Input - Valid Email"
+        },
+        {
+          "ancestorTitles": [
+            "Welcome Page Integration Testing"
+          ],
+          "duration": 48,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Welcome Page Integration Testing [C199] Email Input - Invalid Email",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C199] Email Input - Invalid Email"
+        },
+        {
+          "ancestorTitles": [
+            "Welcome Page Integration Testing"
+          ],
+          "duration": 51,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Welcome Page Integration Testing [C200] Submit without Email",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C200] Submit without Email"
+        },
+        {
+          "ancestorTitles": [
+            "Welcome Page Integration Testing"
+          ],
+          "duration": 48,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Welcome Page Integration Testing [C201] Voice Input Error Handling",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C201] Voice Input Error Handling"
+        },
+        {
+          "ancestorTitles": [
+            "Welcome Page Integration Testing"
+          ],
+          "duration": 30,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Welcome Page Integration Testing [C203] Voice Input - Email Entry",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C203] Voice Input - Email Entry"
+        },
+        {
+          "ancestorTitles": [
+            "Welcome Page Integration Testing"
+          ],
+          "duration": 58,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Welcome Page Integration Testing [C10] Button Hover Effect",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C10] Button Hover Effect"
+        },
+        {
+          "ancestorTitles": [
+            "Welcome Page Integration Testing"
+          ],
+          "duration": 55,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Welcome Page Integration Testing [C11] Voice Recognition Error Handling",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C11] Voice Recognition Error Handling"
+        },
+        {
+          "ancestorTitles": [
+            "Welcome Page Integration Testing"
+          ],
+          "duration": 62,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Welcome Page Integration Testing [C143] Page Load Time Under 2s",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C143] Page Load Time Under 2s"
+        },
+        {
+          "ancestorTitles": [
+            "Welcome Page Integration Testing"
+          ],
+          "duration": 106,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Welcome Page Integration Testing [C144] HTTPS is Enforced",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C144] HTTPS is Enforced"
+        },
+        {
+          "ancestorTitles": [
+            "Welcome Page Integration Testing"
+          ],
+          "duration": 39,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Welcome Page Integration Testing [C145] Voice Input Accessible via Keyboard Navigation",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C145] Voice Input Accessible via Keyboard Navigation"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 19,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260208377,
+        "runtime": 6521,
+        "slow": true,
+        "start": 1748260201856
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\ask_lumi.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 270,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C146] [Performance] Response Time Under 2 Seconds",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C146] [Performance] Response Time Under 2 Seconds"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 51,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C147] [Usability] Voice Input Accessible via Keyboard",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C147] [Usability] Voice Input Accessible via Keyboard"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 70,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C148] [Accessibility] Screen Reader Compatibility",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C148] [Accessibility] Screen Reader Compatibility"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 61,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C26] Submit Question Successfully",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C26] Submit Question Successfully"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 62,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C27] Submit Without Question",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C27] Submit Without Question"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 53,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C28] Voice Input Button Click",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C28] Voice Input Button Click"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 91,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C29] Voice Input Working Properly",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C29] Voice Input Working Properly"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 68,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C30] Microphone Access Denied",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C30] Microphone Access Denied"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 48,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C31] Voice Submission Shows Success Message",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C31] Voice Submission Shows Success Message"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 27,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C204] Verify Page Loads Successfully",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C204] Verify Page Loads Successfully"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 31,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C205] Verify FAQ Menu Option",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C205] Verify FAQ Menu Option"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 21,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C206] Verify Reset Password Option",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C206] Verify Reset Password Option"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 27,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C207] Verify Clear Chat Option",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C207] Verify Clear Chat Option"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 25,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C209] Verify End Chat Option",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C209] Verify End Chat Option"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 28,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C210] Verify Message Sending (Text Input)",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C210] Verify Message Sending (Text Input)"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 25,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C211] Verify Message Sending (Voice Input - Enabled)",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C211] Verify Message Sending (Voice Input - Enabled)"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 17,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C212] Verify Voice Input Toggle (Enabled)",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C212] Verify Voice Input Toggle (Enabled)"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 18,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C213] Verify Settings Menu Accessibility",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C213] Verify Settings Menu Accessibility"
+        },
+        {
+          "ancestorTitles": [
+            "Ask Lumi Page Complete Integration Testing"
+          ],
+          "duration": 15,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Ask Lumi Page Complete Integration Testing [C214] Verify Voice Input Toggle (Disabled)",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C214] Verify Voice Input Toggle (Disabled)"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1748260209049,
+        "runtime": 2119,
+        "slow": false,
+        "start": 1748260206930
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\sheme\\Downloads\\Voice-Enabled-AI-Chatbot\\tests\\script.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [],
+          "duration": 128,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "[C101] should have a title",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C101] should have a title"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 31,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "[C102] should have some buttons",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "[C102] should have some buttons"
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false
+}

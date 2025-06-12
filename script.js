@@ -1,0 +1,1 @@
+function sendMessage() { const input = document.getElementById('user-input'); const chatBox = document.getElementById('chat-box'); chatBox.innerHTML += `<p>${input.value}</p>`; input.value = ''; }

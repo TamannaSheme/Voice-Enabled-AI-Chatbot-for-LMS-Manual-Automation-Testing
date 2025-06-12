@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lumi - Welcome</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="form-card">
+    <div class="logo">
+      <img src="images/lumi-icon.png" alt="Lumi Icon" />
+      <h2>Lumi</h2>
+    </div>
+
+    <div class="intro">Hi! I’m Lumi, your study buddy! Let’s get started!</div>
+
+    <div class="section">
+      <label for="email">📧 Please provide your email address:</label>
+      <div class="input-container">
+        <input type="email" id="email" placeholder="Email Address" />
+        <img src="images/voice-memos.png" class="voice-icon" onclick="startVoice('email')" />
+      </div>
+    </div>
+
+    <button class="button-orange" onclick="submitEmail()">Submit</button>
+  </div>
+
+  <script>
+    // ✅ Auto-redirect if email and role already saved
+    window.onload = function () {
+      const storedEmail = localStorage.getItem("userEmail");
+      const storedRole = localStorage.getItem("userRole");
+
+      if (storedEmail && storedRole) {
+        window.location.href = `chat-lumi.html?email=${storedEmail}&role=${storedRole}`;
+      } else if (storedEmail) {
+        window.location.href = `role.html?email=${storedEmail}`;
+      }
+    };
+
+    function startVoice(fieldId) {
+      const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+      recognition.lang = "en-US";
+      recognition.interimResults = false;
+      recognition.maxAlternatives = 1;
+
+      recognition.start();
+
+      recognition.onresult = function (event) {
+        const transcript = event.results[0][0].transcript;
+        document.getElementById(fieldId).value = transcript;
+      };
+
+      recognition.onerror = function (event) {
+        alert("Voice input error: " + event.error);
+      };
+    }
+
+    function submitEmail() {
+      const emailInput = document.getElementById("email").value.trim();
+      if (!emailInput || !emailInput.includes("@")) {
+        alert("Please enter a valid email address.");
+        return;
+      }
+
+      localStorage.setItem("userEmail", emailInput);
+      window.location.href = `role.html?email=${emailInput}`;
+    }
+  </script>
+</body>
+</html>

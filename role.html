@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Select Role - Lumi</title>
+  <link rel="stylesheet" href="css/role.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="images/lumi-icon.png" alt="Lumi Logo" class="logo" />
+      <h1>Lumi</h1>
+    </div>
+
+    <hr/>
+
+    <div class="role-box">
+      <h2>Welcome!</h2>
+      <p>Please Select Your Role</p>
+
+      <button class="role-btn" onclick="handleRole('student')">Student</button>
+      <button class="role-btn" onclick="handleRole('instructor')">Instructor</button>
+    </div>
+  </div>
+
+  <script>
+    // ✅ Auto-redirect if email & role already exist
+    window.onload = function () {
+      const email = localStorage.getItem("userEmail");
+      const role = localStorage.getItem("userRole");
+
+      if (email && role) {
+        window.location.href = `chat-lumi.html?email=${email}&role=${role}`;
+      }
+    };
+
+    function handleRole(role) {
+      const email = localStorage.getItem("userEmail");
+      if (!email) {
+        alert("Email is missing. Please restart the chatbot.");
+        window.location.href = "index.html";
+        return;
+      }
+
+      localStorage.setItem("userRole", role);
+      window.location.href = `chat-lumi.html?email=${email}&role=${role}`;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+/* preferences_setting.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .settings-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 350px;
+    margin-top: 40px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    font-size: 28px;
+  }
+  
+  .setting-group {
+    margin-bottom: 20px;
+  }
+  
+  .setting-group p {
+    font-weight: bold;
+  }
+  
+  .setting-group label {
+    display: block;
+    margin: 5px 0 5px 10px;
+  }
+  
+  #save-btn {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #save-btn:hover {
+    background-color: darkorange;
+  }
+  
+  .back-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .back-link a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .back-link a:hover {
+    text-decoration: underline;
+  }
+  

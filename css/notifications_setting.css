@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  border: 1px solid #E0E0E0;
+}
+
+.container h1 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #333;
+}
+
+.container h1::before {
+  content: '\1F514'; /* Bell icon */
+  font-size: 24px;
+  color: #FFA500;
+}
+
+.container label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.container input[type="radio"] {
+  margin-right: 8px;
+}
+
+.container button {
+  background-color: #FFA500;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+  background-color: #E59400;
+}
+
+.container a {
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #0073e6;
+  text-align: center;
+  cursor: pointer;
+}

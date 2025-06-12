@@ -1,0 +1,122 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ask Lumi a New Question</title>
+  <link rel="stylesheet" href="css/ask-lumi.css" />
+  <style>
+    .settings-menu {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    .settings-btn {
+      background: transparent;
+      border: none;
+      font-size: 28px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .settings-dropdown {
+      display: none;
+      position: absolute;
+      top: 30px;
+      right: 0;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      z-index: 10000;
+      min-width: 180px;
+    }
+
+    .settings-dropdown a,
+    .settings-dropdown button {
+      display: block;
+      width: 100%;
+      padding: 10px 15px;
+      background: none;
+      border: none;
+      text-align: left;
+      font-size: 14px;
+      color: #333;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .settings-dropdown a:hover,
+    .settings-dropdown button:hover {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <div class="chat-container" style="position: relative;">
+    <div class="settings-menu">
+      <button class="settings-btn" onclick="toggleSettings()">⚙️</button>
+      <div class="settings-dropdown" id="settingsDropdown">
+        <a href="faq.html">📚 FAQ</a>
+        <a href="reset-password.html">🔐 Reset Password</a>
+        <button onclick="clearChat()">🗑️ Clear Chat</button>
+        <button onclick="endChat()">🔁 End Chat</button>
+      </div>
+    </div>
+
+    <header>
+      <img src="images/lumi-icon.png" alt="Lumi Logo" class="lumi-logo" />
+      <h1>Ask Lumi a New Question</h1>
+    </header>
+
+    <div id="chat-messages" class="chat-box">
+      <!-- Messages will appear here -->
+    </div>
+
+    <div class="input-area-row">
+      <textarea id="question" placeholder="Ask your question here..."></textarea>
+      <button onclick="startVoice('question')" class="button-orange">🎤</button>
+      <button onclick="respondToUser()" class="button-orange">➤</button>
+    </div>
+  </div>
+
+  <script>
+    function toggleSettings() {
+      const dropdown = document.getElementById("settingsDropdown");
+      dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+    }
+
+    function clearChat() {
+      document.getElementById("chat-messages").innerHTML = "";
+      alert("Chat cleared");
+    }
+
+    function endChat() {
+      document.getElementById("chat-messages").innerHTML = "<p>Chat has ended.</p>";
+      alert("Chat ended");
+    }
+
+    function startVoice(fieldId) {
+      const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+      recognition.lang = "en-US";
+      recognition.interimResults = false;
+      recognition.maxAlternatives = 1;
+
+      recognition.start();
+      recognition.onresult = (event) => {
+        document.getElementById(fieldId).value = event.results[0][0].transcript;
+      };
+    }
+
+    function respondToUser() {
+      const question = document.getElementById("question").value.trim();
+      if (question) {
+        document.getElementById("chat-messages").innerHTML += `<p>User: ${question}</p>`;
+      } else {
+        alert("Please enter a question");
+      }
+    }
+  </script>
+</body>
+</html>

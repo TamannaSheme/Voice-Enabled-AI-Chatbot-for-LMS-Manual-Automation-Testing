@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Account</title>
+  <link rel="stylesheet" href="css/account_setting.css" />
+</head>
+<body>
+  <div class="account-container">
+    <h2><span class="icon">👤</span> Account</h2>
+    <p><strong>Name</strong><br>Syeda Tamanna Sheme</p>
+    <p><strong>Email</strong><br>syedatamannasheme@gmail.com</p>
+    <p>
+      <strong>Password</strong> <a href="#" id="change-link">Change</a><br>
+      <input type="password" id="password-field" value="password" disabled>
+    </p>
+
+    <div>
+      <p><strong>Linked Accounts</strong></p>
+      <label><input type="radio" name="auth" /> Google</label><br>
+      <label><input type="radio" name="auth" /> Apple</label><br>
+      <label><input type="radio" name="auth" /> Two-Factor Authentication</label>
+    </div>
+
+    <div class="buttons">
+      <button id="logout-btn">Logout</button>
+      <button id="save-btn">Save</button>
+    </div>
+
+    <a href="settings.html" id="back-link">← Back to Settings</a>
+  </div>
+
+  <script src="js/account.js"></script>
+</body>
+</html>
